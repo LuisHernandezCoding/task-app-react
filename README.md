@@ -4,7 +4,7 @@
 This is a simple task app that allows you to create, mark as completed, and delete tasks. It was built using React.
 
 ## Previews
-![]()
+![7c1abbcd4ad395a651166c257ee26451](https://user-images.githubusercontent.com/112588805/213584920-f2007b5d-4d70-4593-bcc2-037c0e1263f2.png)
 
 ## Live Demo
 [Live Demo Link]()

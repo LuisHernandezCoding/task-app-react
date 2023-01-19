@@ -1,3 +1,148 @@
 .App {
-  text-align: center;
+  text-align: left;
+  background-color: #031634;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+  font-size: 1.5em;
+  color: #E8DDCB;
+}
+
+.pageTitle {
+  font-size: 1.5em;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+}
+
+.pageTitle__icon {
+  margin-right: 0.5em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  background-color: #033649;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.input-group input {
+  border: solid 1px #6b7387;
+  border-radius: 10px;
+  padding: 1em;
+  width: 80%;
+  margin-bottom: 1em;
+  outline: none;
+  appearance: none;
+  background-color: #919dbc;
+}
+
+.input-group input:focus {
+  outline: none;
+  border: solid 1px #1c294b;
+}
+
+.input-group .btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 1em;
+  width: 10%;
+  background-color: #036564;
+  color: white;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  transition: all 0.5s ease;
+  min-width: 50px;
+}
+
+.input-group .btn:hover {
+  background-color: #037876;
+}
+
+.input-group .btn:active {
+  background-color: #024c4b;
+}
+
+.tasks {
+  background-color: #036564;
+  width: 90%;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.tasks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tasks ul li {
+  padding: 0.5em;
+  border-bottom: 1px solid #E8DDCB;
+  transition: all 0.5s ease;
+}
+
+.tasks ul li:last-child {
+  border-bottom: none;
+}
+
+.tasks ul li.some:hover {
+  background-color: #033649;
+  cursor: pointer;
+  color: #CDB380;
+}
+
+.tasks__hint {
+  color: #CDB380;
+  font-size: 0.6em;
+  margin-left: 0.5em;
+}
+
+.check {
+  margin-right: 0.5em;
+  background-color: white;
+  border: 3px solid black;
+  padding: 0 0.2em;
+}
+
+.check.incomplete {
+  padding: 0 0.3em;
+  color: black;
+  background-color: white;
+}
+
+.check.completed {
+  color: white;
+  background-color: green;
+}
+
+.footer {
+  margin: 1em;
+  font-size: 0.7em;
+}
+
+.footer .heart {
+  color: #E25555;
+}
+
+.footer a {
+  color: #E8DDCB;
+}
+
+.footer a:hover {
+  color: #CDB380;
 }
